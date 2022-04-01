@@ -1,4 +1,0 @@
-[submodule "src"]
-	path = src
-	url = git@github.com:takimotok/blog.git
-	ignore = dirty
