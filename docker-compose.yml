@@ -11,4 +11,5 @@ services:
     tty: true
     volumes:
       - ./src:/usr/src/app
+      - ~/.gitconfig:/etc/gitconfig
         # command: /bin/sh -c 'npm run dev'
