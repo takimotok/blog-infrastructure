@@ -4,7 +4,7 @@ LABEL maintainer="takimotok"
 
 # install libraries
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  jq && \
+  jq \
   vim && \
   # clear cached binaries
   apt-get clean && rm -rf /var/cache/apt
